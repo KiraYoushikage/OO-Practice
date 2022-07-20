@@ -9,6 +9,8 @@ import lombok.EqualsAndHashCode;
 public class Car extends Vehicle {
     private Engine engine;
 
+    EEEngine eeEngine;
+
     public Car(String name,Engine engine) {
         super(name,engine.getMaxSpeed());
         this.engine = engine;

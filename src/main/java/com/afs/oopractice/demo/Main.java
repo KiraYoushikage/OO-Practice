@@ -26,5 +26,10 @@ public class Main {
         driver.setVehicle(truck);
         driver.drive();
 
+
+
+        car.setEeEngine(EEEngine.Electric);
+
+        System.out.println();
     }
 }
